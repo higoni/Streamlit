@@ -6,7 +6,7 @@ st.set_page_config(
 	layout='wide'
 )
 
-st.text('🎈Streamlit 프로토타입 만들기')
+st.text('🎈윤희건 : Streamlit 프로토타입 만들기')
 
 st.title('🤷‍♂️Title을 입력하세요.')
 
