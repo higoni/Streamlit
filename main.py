@@ -46,6 +46,7 @@ df_index = pd.read_csv(index_file)
 
 st.dataframe(df_stocks)
 
+
 st.dataframe(df_index.style.highlight_max(axis=0))
 
 # symbol = st.selectbox('검색하고자 하는 기업을 선택하세요.', (df_stocks['Symbol'].unique()))
