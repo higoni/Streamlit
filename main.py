@@ -40,11 +40,9 @@ import pandas as pd
 
 stocks_file = 'https://raw.githubusercontent.com/seokjam/stremlitProject/master/data/sp500_stocks_2022.csv'
 index_file = 'https://raw.githubusercontent.com/seokjam/stremlitProject/master/data/sp500_index_2022.csv'
-inflation_file = 'data/CORESTICKM159SFRBATL.csv'
 
 df_stocks = pd.read_csv(stocks_file)
 df_index = pd.read_csv(index_file)
-df_inflation = pd.read_csv(inflation_file)
 
 st.dataframe(df_stocks)
 st.dataframe(df_inflation)
